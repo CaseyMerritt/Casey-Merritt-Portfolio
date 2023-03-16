@@ -41,7 +41,6 @@ export default function Home() {
             <AiFillLinkedin></AiFillLinkedin>
           </div>
           <div className='relative mx-auto bg-gradient-to-b from-teal-500 round-full w-80 h -80 mt-20 overflow-hidden'>
-            <Image />
           </div>
         </section>
 
@@ -55,7 +54,6 @@ export default function Home() {
 
           <div>
             <div>
-              <Image />
             </div>
           </div>
         </section>
