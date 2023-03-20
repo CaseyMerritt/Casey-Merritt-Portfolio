@@ -2,7 +2,16 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-const ProjectItem = ({title, backgroundImg, projectUrl, description}) =>{
+type ProjectTypes = {
+    title:string;
+    backgroundImg:string;
+    projectUrl:string;
+    description:string;
+}
+
+const ProjectItem: React.FunctionComponent<ProjectTypes> = (props) =>{
+    const {title, backgroundImg, projectUrl, description} = props;
+
     return(
         <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-teal-500 to-cyan-500 '>
         <Image className='rounded-xl group-hover:opacity-10' src={backgroundImg} width={600} height={400} alt=''/>
