@@ -13,7 +13,7 @@ const About = () =>{
                     <p className='text-md px-10 py-2 leading-8 text-white'>Lauren is literally the best</p>
                  </div>
                  <div className=''>
-                    <Image className='m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-200' src={'../../public/ProfilePic.jpg'} width={324} height={4032} loading='lazy' alt=''></Image>
+                    <Image className='m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-200' src={'../../public/ProfilePic.jpg'} width={324} height={432} loading='lazy' alt=''></Image>
                  </div>
             </div>
         </div>
