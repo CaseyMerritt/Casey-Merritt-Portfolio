@@ -77,9 +77,9 @@ const Navbar = () => {
                             </Link>
                         </ul>
 
-                        <div className='pt-20'>
+                        <div className='pt-10'>
                             <p className='uppercase tracking-widest text-teal-500'>Let's Connect</p>
-                            <div className='text-5xl flex justify-left gap-5 py-3 text-black'>
+                            <div className='text-4xl flex justify-left gap-3 py-3 text-black'>
                                 <a href = "https://github.com/CaseyMerritt"  target="_blank">
                                     <AiFillGithub className='hover:scale-110 ease-in duration-200'></AiFillGithub>
                                 </a>
