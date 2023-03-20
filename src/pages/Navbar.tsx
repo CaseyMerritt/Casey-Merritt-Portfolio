@@ -77,7 +77,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
 
-                        <div className='pt-40'>
+                        <div className='pt-20'>
                             <p className='uppercase tracking-widest text-teal-500'>Let's Connect</p>
                             <div className='text-5xl flex justify-left gap-5 py-3 text-black'>
                                 <a href = "https://github.com/CaseyMerritt"  target="_blank">
