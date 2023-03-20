@@ -13,7 +13,7 @@ const About = () =>{
                     <p className='text-md px-10 py-2 leading-8 text-white'>Lauren is literally the best</p>
                  </div>
                  <div className=''>
-                     <a href='../../public/ProfilePic.jpg' download>file test download</a>
+                     <Image className='m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center hover:scale-105 ease-in duration-200' src='../../ProfilePic.jpg' width={324} height={432} alt='not found' loading='lazy'></Image>
                  </div>
             </div>
         </div>
