@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const About = () =>{
     return(
-        <div className='w-full flex items-center py-16 bg-gradient-to-r from-cyan-500 to-teal-500'>
+        <div id='about' className='w-full flex items-center py-16 bg-gradient-to-r from-cyan-500 to-teal-500'>
             <div className='max-w-[1240] m-auto md:grid grid-cols-3 gap-8'>
                 <div className='col-span-2'>
                     <h2 className='text-3xl px-10 uppercase tracking-widest text-white'>About Me</h2>

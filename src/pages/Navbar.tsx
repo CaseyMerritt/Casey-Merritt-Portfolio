@@ -17,21 +17,21 @@ const Navbar = () => {
                 <h1 className='text-xl px-5 py-5 text-white'>Lauren is really hot</h1>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href= '/'>
-                            <li className='text-xl px-5 py-5 text-white'></li>
-                        </Link>
-                        <Link href= '/'>
-                            <li className='text-xl px-5 py-5 text-white'></li>
-                        </Link>
-                        <Link href= '/'>
-                            <li className='text-xl px-5 py-5 text-white'></li>
-                        </Link>
-                        <Link href= '/'>
-                            <li className='text-xl px-5 py-5 text-white'></li>
-                        </Link>
-                        <Link href= '/'>
-                            <li className='text-xl px-5 py-5 text-white'></li>
-                        </Link>
+                        <a href= '/#home'>
+                            <li className='text-xl px-5 py-5 text-white'>Home</li>
+                        </a>
+                        <a href= '/#about'>
+                            <li className='text-xl px-5 py-5 text-white'>About</li>
+                        </a>
+                        <a href= '/#skills'>
+                            <li className='text-xl px-5 py-5 text-white'>Skills</li>
+                        </a>
+                        <a href= '/#projects'>
+                            <li className='text-xl px-5 py-5 text-white'>Projects</li>
+                        </a>
+                        <a href= '/#contact'>
+                            <li className='text-xl px-5 py-5 text-white'>Contact</li>
+                        </a>
                     </ul>
                     
                     <div onClick={handleNav} className='md:hidden text-white'>
@@ -60,21 +60,21 @@ const Navbar = () => {
 
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
-                            <Link href='/'>
+                            <a href='/#home'>
                                 <li className='py-4 text-sm'>Home</li>
-                            </Link>
-                            <Link href='/'>
+                            </a>
+                            <a href='/#about'>
                                 <li className='py-4 text-sm'>About</li>
-                            </Link>
-                            <Link href='/'>
+                            </a>
+                            <a href='/#skills'>
                                 <li className='py-4 text-sm'>Skills</li>
-                            </Link>
-                            <Link href='/'>
+                            </a>
+                            <a href='/#projects'>
                                 <li className='py-4 text-sm'>Projects</li>
-                            </Link>
-                            <Link href='/'>
+                            </a>
+                            <a href='/#contact'>
                                 <li className='py-4 text-sm'>Contact</li>
-                            </Link>
+                            </a>
                         </ul>
 
                         <div className='pt-10'>
