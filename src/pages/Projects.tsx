@@ -8,10 +8,10 @@ const Projects = () =>{
                 <h2 className='text-3xl px-10 tracking-widest uppercase text-black'>Projects</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
-                    <ProjectItem title='NASA | Greater Heights' backgroundImg={'/../../GreaterHeightsAlt.png'} projectUrl='/' description={'Godot and Python'}/>
+                    <ProjectItem title='NASA | Greater Heights' backgroundImg={'../../GreaterHeightsAlt.png'} projectUrl='/' description={'Godot and Python'}/>
                     <ProjectItem title='Graphix' backgroundImg={'../../profile.png'} projectUrl='/' description={'Java and Processing 3.4'}/>
-                    <ProjectItem title='Splitr' backgroundImg={'/../../profile.png'} projectUrl='/' description={'Android Studio and Kotlin'}/>
-                    <ProjectItem title='Ghoul' backgroundImg={'/../../Ghoul.JPG'} projectUrl='/' description={'Unity and C#'}/>
+                    <ProjectItem title='Splittr' backgroundImg={'../../profile.png'} projectUrl='/' description={'Android Studio and Kotlin'}/>
+                    <ProjectItem title='Ghoul' backgroundImg={'../../Ghoul.JPG'} projectUrl='/' description={'Unity and C#'}/>
 
                 </div>
             </div>
