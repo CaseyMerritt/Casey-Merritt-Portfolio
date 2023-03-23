@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Contact = () =>{
     return(
-        <div id='contact' className='w-full lg:h-screen bg-gray-800'>
+        <div id='contact' className='w-full h-auto bg-gray-800'>
             <div className='max-w-[1240] m-auto px-2 py-16 w-full'>
                 <p className='text-3xl px-10 tracking-widest uppercase text-white'>Contact Me</p>
                 <div className='gird lg:grid-cols-5 gap-8'>

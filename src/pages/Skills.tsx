@@ -3,12 +3,9 @@ import Image from 'next/image'
 
 const Skills = () =>{
     return(
-        <div id='skills' className='w-full lg:h-screen p-2'>
+        <div id='skills' className='w-full md:h-screen p-2'>
             <div className='max-w-[1240] mx-auto flex flex-col justify-center h-full'>
                 <h2 className='text-3xl px-10 tracking-widest uppercase text-black'>Skills</h2>
-                <p className='text-md px-10 py-2 leading-8 text-black'>
-                    Lauren is insanely beautiful
-                </p>
                 <div className='grid md:grid-cols-2 lg:gird-cols-4 gap-8'>
 
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -50,7 +47,7 @@ const Skills = () =>{
                                 <Image src={'../../Tailwind.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3 className='text-xl font-bold'>TAILWIND</h3>
+                                <h3 className='text-xl font-bold'>TailWind</h3>
                             </div>
                         </div>
                     </div>
@@ -94,7 +91,7 @@ const Skills = () =>{
                                 <Image src={'../../Python.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3 className='text-xl font-bold'>PYTHON</h3>
+                                <h3 className='text-xl font-bold'>Python</h3>
                             </div>
                         </div>
                     </div>
