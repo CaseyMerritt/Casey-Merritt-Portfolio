@@ -9,8 +9,8 @@ const Projects = () =>{
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectItem title='NASA | Greater Heights' backgroundImg={'../../GreaterHeightsRevision.png'} projectUrl='/' description={'Godot and Python'}/>
-                    <ProjectItem title='Graphix' backgroundImg={'../../Splittr.png'} projectUrl='/' description={'Java and Processing 3.4'}/>
-                    <ProjectItem title='Splittr' backgroundImg={'../../Graphix.png'} projectUrl='/' description={'Android Studio and Kotlin'}/>
+                    <ProjectItem title='Graphix' backgroundImg={'../../Graphix.png'} projectUrl='/' description={'Java and Processing 3.4'}/>
+                    <ProjectItem title='Splittr' backgroundImg={'../../Splittr.png'} projectUrl='/' description={'Android Studio and Kotlin'}/>
                     <ProjectItem title='Ghoul' backgroundImg={'../../GhoulRevision.png'} projectUrl='/' description={'Unity and C#'}/>
 
                 </div>
