@@ -14,7 +14,7 @@ const Navbar = () => {
     return(
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-gray-800'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px16'>
-                <h1 className='text-xl px-5 py-5 text-white'>-</h1>
+                <h1 className='text-xl px-5 py-5 text-white'>CM</h1>
                 <div>
                     <ul className='hidden md:flex'>
                         <a href= '/#home'>

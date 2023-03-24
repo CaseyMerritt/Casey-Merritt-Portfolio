@@ -5,7 +5,7 @@ const Projects = () =>{
     return(
         <div id='projects' className='w-full'>
             <div className='max-w-[1240] mx-auto px-2 py-16'>
-                <h2 className='text-3xl px-10 tracking-widest uppercase text-black'>Projects</h2>
+                <h2 className='text-3xl px-10 tracking-widest uppercase text-black'>Projects/Work Experience</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
                     <ProjectItem title='NASA | Greater Heights' backgroundImg={'../../GreaterHeightsRevision.png'} projectUrl='/' description={'Godot and Python'}/>
