@@ -8,10 +8,10 @@ const Projects = () =>{
                 <h2 className='text-3xl px-10 tracking-widest uppercase text-black'>Projects/Work Experience</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
 
-                    <ProjectItem title='NASA | Greater Heights' backgroundImg={'../../GreaterHeightsRevision.png'} projectUrl='/' description={'Godot and Python'}/>
-                    <ProjectItem title='Graphix' backgroundImg={'../../Graphix.png'} projectUrl='/' description={'Java and Processing 3.4'}/>
-                    <ProjectItem title='Splittr' backgroundImg={'../../Splittr.png'} projectUrl='/' description={'Android Studio and Kotlin'}/>
-                    <ProjectItem title='Ghoul' backgroundImg={'../../GhoulRevision.png'} projectUrl='/' description={'Unity and C#'}/>
+                    <ProjectItem title='NASA | Greater Heights' backgroundImg={'../../GreaterHeightsRevision.png'} projectUrl='/GreaterHeights' description={'Godot and Python'}/>
+                    <ProjectItem title='Graphix' backgroundImg={'../../Graphix.png'} projectUrl='/Graphix' description={'Java and Processing 3.4'}/>
+                    <ProjectItem title='Splittr' backgroundImg={'../../Splittr.png'} projectUrl='/Splittr' description={'Android Studio and Kotlin'}/>
+                    <ProjectItem title='Ghoul' backgroundImg={'../../GhoulRevision.png'} projectUrl='/Ghoul' description={'Unity and C#'}/>
 
                 </div>
             </div>

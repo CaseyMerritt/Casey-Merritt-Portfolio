@@ -14,7 +14,9 @@ const Navbar = () => {
     return(
         <div className='fixed w-full h-20 shadow-xl z-[100] bg-gray-800'>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px16'>
+                <a href='/#home'>
                 <h1 className='text-xl px-5 py-5 text-white'>CM</h1>
+                </a>
                 <div>
                     <ul className='hidden md:flex'>
                         <a href= '/#home'>
@@ -61,19 +63,19 @@ const Navbar = () => {
                     <div className='py-4 flex flex-col'>
                         <ul className='uppercase'>
                             <a href='/#home'>
-                                <li className='py-4 text-sm'>Home</li>
+                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Home</li>
                             </a>
                             <a href='/#about'>
-                                <li className='py-4 text-sm'>About</li>
+                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>About</li>
                             </a>
                             <a href='/#skills'>
-                                <li className='py-4 text-sm'>Skills</li>
+                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Skills</li>
                             </a>
                             <a href='/#projects'>
-                                <li className='py-4 text-sm'>Projects</li>
+                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Projects</li>
                             </a>
                             <a href='/#contact'>
-                                <li className='py-4 text-sm'>Contact</li>
+                                <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
                             </a>
                         </ul>
 
