@@ -46,15 +46,15 @@ const Graphix = () =>{
 
             <div className='p-10 max-w-[1240px] mx-auto'>
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4'>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='../../Gt3.png'  alt='Coming Soon'/>
+                    <img className='fill' src ='../../Gt14.png'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
 
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='../../Gt14.1.png'  alt='Coming Soon'/>
+                    <img className='fill' src ='../../Graphix.png'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
