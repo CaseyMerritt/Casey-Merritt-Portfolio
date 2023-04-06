@@ -72,10 +72,8 @@ const GreaterHeights = () =>{
 
                 <div className='p-2'/>
 
-                <div className='py-10 grid lg:grid-cols-3 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                <div className='py-10 grid lg:grid-cols-1 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/p0uzZAA9nYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
 
                 <div className='p-2'/>
@@ -93,9 +91,7 @@ const GreaterHeights = () =>{
 
                 <div className='p-2'/>
                 
-                <div className='py-10 grid lg:grid-cols-3 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
-                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                <div className='py-10 grid lg:grid-cols-1 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
                     <img className='fill' src ='/'  alt='Coming Soon'/>
                 </div>
 
