@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Casey Merritt Porfoloio</title>
+        <title>Casey Merritt</title>
         <meta name="Portfolio Website" content="Casey Merritt Portfolio" />
         <link rel="icon" href="" />
       </Head>

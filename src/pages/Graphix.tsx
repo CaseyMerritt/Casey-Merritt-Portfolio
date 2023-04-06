@@ -6,7 +6,7 @@ const Graphix = () =>{
     return(
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:w-[40vh'>
-                <div className='absolute fill top-20 left-0 w-full h-[30vh] lg:h-[40vh]'>
+                <div className='absolute fill top-20 left-0 w-full h-[30vh] lg:h-[35vh]'>
                     <img className='absolute z-1 filter blur-sm' src='../../Graphix.png' alt='/' />
                     <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 px-10 text-white'>
                         <h2 className='text-3xl'>Graphix</h2>
@@ -19,7 +19,17 @@ const Graphix = () =>{
                 <div className='col-span-4'>
                     <p className='text-2xl text-black'>Project</p>
                     <h2 className='text-3xl text-black' >Overview</h2>
-                    <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p> 
+                    <p className='py-2'>
+                        ‘Graphix’ is a ray traced image renderer built using Processing 3.4, an open-source programming language and environment designed for artists, designers, and educators. ‘Graphix’ is designed to showcase
+                         a variety of advanced features and techniques, including reflections, refractions, shadows, and global illumination. It uses a combination of algorithms and data structures to simulate the behavior of 
+                         light as it interacts with different materials and surfaces, creating a realistic and immersive virtual environment. 
+                    </p>
+                    <p className='py-2'>
+                    In summary, Graphix was a challenging and complex project that required a deep understanding of mathematics, computer graphics, and programming, which really put my skills to the test. The project is not in
+                     its final form just yet though. I am currently in the process of converting it to C++ and optimizing the code using CUDA and GPU accelerated computation to increase the efficiency and fidelity as well as
+                      decrease rendering time. If you would like to take a closer look, sample renders and the github containing the source code are shown below!
+                    </p>
+
                 </div>
 
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -36,32 +46,18 @@ const Graphix = () =>{
 
             <div className='p-10 max-w-[1240px] mx-auto'>
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4'>
-                    <div className=''>
-                        <h3 className='text-2xl'>Personal Tasks</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
-                    <img className='fill' src ='/'  alt='/'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
 
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <img className='fill' src ='/'  alt='/'/>
-                    <div className='text-white'>
-                        <h3 className='text-2xl'>Unity Tech Demo</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
-
-                <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4'>
-                    <div className=''>
-                        <h3 className='text-2xl'>Godot Integration</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
-                    <img className='fill' src ='/'  alt='/'/>
-                </div>
             </div>
 
             <div className=''>

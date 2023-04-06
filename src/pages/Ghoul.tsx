@@ -6,11 +6,11 @@ const Ghoul = () =>{
     return(
         <div className='w-full'>
             <div className='w-screen h-[30vh] lg:w-[40vh'>
-                <div className='absolute fill top-20 left-0 w-full h-[30vh] lg:h-[40vh]'>
+                <div className='absolute fill top-20 left-0 w-full h-[30vh] lg:h-[35vh]'>
                     <img className='absolute z-1 filter blur-sm' src='../../Ghoul.JPG' alt='/' />
                     <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 px-10 text-white'>
                         <h2 className='text-3xl'>Ghoul</h2>
-                        <h3 className='text-lg'>Unit / C#</h3>
+                        <h3 className='text-lg'>Unity / C#</h3>
                     </div>
                 </div>
             </div>
@@ -20,7 +20,21 @@ const Ghoul = () =>{
                 <div className='col-span-4'>
                     <p className='text-2xl text-black'>Project</p>
                     <h2 className='text-3xl text-black' >Overview</h2>
-                    <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p> 
+                    <p className='py-2'>
+                        I'm currently working on a passion project called Ghoul, a 2D Platformer. Although the game is still in development, I've included some samples on my website for anyone reading this to check out!
+                    </p> 
+                    <p className='py-2'>
+                    Ghoul is a game that I've been working on in my free time as a way to explore my passion for game development and to challenge myself to build something that is fun, engaging, and visually appealing. 
+                    The game is set in a spooky and mysterious sci-fi world. It challenges players to navigate a series of increasingly difficult levels using a combination of jumping, running, and fighting.
+                    </p> 
+                    <p className='py-2'>
+                    In terms of the technical side of things, I've used Unity and C# to build the game mechanics and gameplay systems, including the physics engine, collision detection, and enemy AI. I've also implemented a 
+                    variety of power-ups and upgrades to give players more options and to keep the gameplay fresh and engaging. 
+                    </p> 
+                    <p className='py-2'>
+                    While Ghoul is still a work in progress, I'm excited about the potential it has and I'm looking for opportunities to work on similar projects in the future. I believe that my experience building Ghoul has 
+                    given me a strong foundation in game development, and I'm eager to continue exploring this field and building my skills.
+                    </p> 
                 </div>
 
                 <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
@@ -37,35 +51,20 @@ const Ghoul = () =>{
                 </div>
             </div>
 
-
             <div className='p-10 max-w-[1240px] mx-auto'>
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4'>
-                    <div className=''>
-                        <h3 className='text-2xl'>Personal Tasks</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
-                    <img className='fill' src ='/'  alt='/'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
 
                 <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <img className='fill' src ='/'  alt='/'/>
-                    <div className='text-white'>
-                        <h3 className='text-2xl'>Unity Tech Demo</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
+                    <img className='fill' src ='/'  alt='Coming Soon'/>
                 </div>
 
                 <div className='p-2'/>
-
-                <div className='py-10 grid lg:grid-cols-2 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4'>
-                    <div className=''>
-                        <h3 className='text-2xl'>Godot Integration</h3>
-                        <p>As a computer science student, my passion for software engineering and development stems from my love for video games. In high school, I taught myself to code using C# and Unity in order to create my own video games. This led me to explore the different aspects of software engineering, such as game development, virtual reality, and mobile applications. My passion for creating immersive and engaging experiences has motivated me to pursue a career in software engineering, where I can continue to develop cutting-edge technology that brings people together.</p>
-                    </div>
-                    <img className='fill' src ='/'  alt='/'/>
-                </div>
             </div>
 
             <div className=''>
