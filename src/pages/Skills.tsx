@@ -11,7 +11,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Html.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Html.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>HTML</h3>
@@ -22,7 +22,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Css.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Css.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>CSS</h3>
@@ -33,7 +33,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Next.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Next.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>NEXT.JS</h3>
@@ -44,7 +44,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Tailwind.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Tailwind.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>TailWind</h3>
@@ -55,7 +55,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../JavaScript.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../JavaScript.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>JavaScript</h3>
@@ -66,7 +66,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Java.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Java.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>Java</h3>
@@ -77,7 +77,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../cpp.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../cpp.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>C++</h3>
@@ -88,7 +88,7 @@ const Skills = () =>{
                     <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <Image src={'../../Python.png'} width={64} height={64} alt={'/'}></Image>
+                                <Image src={'/../../Python.png'} width={64} height={64} alt={'/'}></Image>
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <h3 className='text-xl font-bold'>Python</h3>

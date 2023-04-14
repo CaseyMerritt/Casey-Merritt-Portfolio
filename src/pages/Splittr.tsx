@@ -48,8 +48,16 @@ const Splittr = () =>{
 
             <div className='p-10 max-w-[1240px] mx-auto'>
 
-                <div className='py-10 grid lg:grid-cols-1 md:grid-cols-4 gap-8 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
-                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/twUzwjjBxcw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <div className='w-full overflow-hidden aspect-w-16 aspect-h-9 py-10 shadow-xl sahdow-gray-400 rounded-xl p-4 bg-gradient-to-r from-cyan-500 to-teal-500'>
+                    <iframe
+                        className="w-full"
+                        width={960}
+                        height={540}
+                        src="https://www.youtube.com/embed/twUzwjjBxcw" 
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowFullScreen> 
+                    </iframe>
                 </div>
 
                 <div className='p-2'/>
